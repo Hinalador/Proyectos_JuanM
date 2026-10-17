@@ -1,0 +1,4 @@
+Nombre: Luis.
+Estado: activo.
+Empresa: Legumbrería.
+Correo: luis@example.com

@@ -1,0 +1,4 @@
+Nombre: Marta.
+Empresa: Oficina.
+Estado: Inactivo.
+Correo: marta@example.com
