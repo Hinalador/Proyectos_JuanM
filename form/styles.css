@@ -1,0 +1,110 @@
+body{
+    margin: auto;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(52, 52, 52);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    background-color: rgb(195, 195, 195);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(224, 224, 224);
+    padding: 70px;
+    border-radius: 25px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:not([type="checkbox"]):not([type="radio"]),
+select{
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 200px;
+    min-height: 80px;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+section:focus-within label{
+    color: rgb(52, 52, 52);
+    font-weight: bold;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):focus,
+select:focus,
+textarea:focus{
+    outline: 2px solid rgb(52, 52, 52);
+    outline-offset: 2px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    accent-color: rgb(52, 52, 52);
+}
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus{
+    outline: 2px solid rgb(52, 52, 52);
+    outline-offset: 2px;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.opciones label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: rgb(52, 52, 52);
+    color: white;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+div{
+    margin: 5px;
+}
